@@ -31,5 +31,38 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+header {
+    background-color: aqua;
+    padding: 1.4rem;
+}
+#card-itsfelf{
+    text-align: center;
+    width: 24rem;
+    height: 50rem ;
+    margin: 2.5rem auto;
+}
+#circle-num {
+    margin: 1.2rem auto;
+    width: 8.5rem;
+    height: 8.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+#circle-num p {
+    font-weight: bold;
+    color: white;
+    font-size:3.8rem;
+    margin-top: 0.1rem;
+}
+
+
+
+
+
+
+
+
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
