@@ -52,7 +52,9 @@ header {
   height: 8.7rem;
   padding: 1rem;
   border-radius: 50%;
-  background-color: var(--Cobaltblue);
+  background: rgb(13,11,198);
+ 
+  background-image: linear-gradient(rgb(67, 42, 157) 0%, hsl(234, 85%, 51%) 80%);
 }
 header p:nth-child(1) {
   color: var(--Lightlavender);
@@ -89,7 +91,6 @@ main .summary-itens {
   padding: 1.2rem;
   border-radius: 0.6rem;
   margin-bottom: 1rem;
-  background-color: var(--Paleblue);
 }
 main .summary-itens img {
   padding-right: 0.6rem;
@@ -98,7 +99,7 @@ main .summary-itens span:nth-child(2) {
     font-weight: 800;
 }
 main .summary-itens span > span {
-  color: var(--Lightlavender);
+  color: hsl(240, 1%, 71%);;
 }
 main .summary-itens:nth-child(2) {
   margin-top: 1rem;
@@ -106,6 +107,18 @@ main .summary-itens:nth-child(2) {
 main p:nth-child(1) {
     font-weight: 700;
     font-size: 1.1rem;
+}
+main .summary-itens:nth-child(2) {
+  background-color: hsl(0, 100%, 67%, 0.1);
+}
+main .summary-itens:nth-child(3) {
+  background-color: hsl(39, 100%, 56%, 0.1);
+}
+main .summary-itens:nth-child(4) {
+  background-color: hsl(166, 100%, 37%, 0.1);
+}
+main .summary-itens:nth-child(5) {
+  background-color: hsl(234, 85%, 45%, 0.1);;
 }
 main .summary-itens:nth-child(2) p:nth-child(2) {
   color: var(--Lightred);
