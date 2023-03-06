@@ -34,8 +34,11 @@
 header {
   background-color: var(--Lightroyalblue);
   padding: 1.4rem;
+
   border-bottom-left-radius: 1.8rem;
   border-bottom-right-radius: 1.8rem;
+  border-top-left-radius: 1.8rem;
+  border-top-right-radius: 1.8rem;
   text-align: center;
 }
 #card-itsfelf {
@@ -165,7 +168,7 @@ main button {
   }
   #card-itsfelf {
     border-radius: 1rem;
-    width: 38rem;
+    width: 39rem;
     height: 26rem;
     margin: 14rem auto;
     background-color: white;
@@ -199,7 +202,7 @@ display: flex;
   }
   main {
     padding: 1.5rem 1.8rem;
-    margin-left: 0.2rem;
+    margin-left: 0.65rem;
   }
   .flex {
     display: flex;
