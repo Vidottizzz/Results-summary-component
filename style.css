@@ -188,10 +188,14 @@ background-color: hsl(225, 29%, 32%);;
 }
 
 .attribution {
-  font-size: 11px;
   text-align: center;
 }
+.attribution a:hover {
+  color: hsl(228, 50%, 12%);
+  
+}
 .attribution a {
+  font-size: 10px;
   color: hsl(228, 45%, 44%);
 }
 
